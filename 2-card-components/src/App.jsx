@@ -1,12 +1,13 @@
-import Card from "./Card"
-
+// import Card from "./Card"
+import Button from "./Button/Button"
 function App() {
   return(
     // fragmente:<></>
-    <>
-      <Card/>
-      <Card/>
-    </>
+    // <>
+    //   <Card/>
+    //   <Card/>
+    // </>
+    <Button/>
   );
 }
 
