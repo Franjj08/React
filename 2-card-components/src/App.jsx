@@ -1,5 +1,6 @@
 // import Card from "./Card"
-import Button from "./Button/Button"
+// import Button from "./Button/Button"
+import Student from "./Student";
 function App() {
   return(
     // fragmente:<></>
@@ -7,7 +8,12 @@ function App() {
     //   <Card/>
     //   <Card/>
     // </>
-    <Button/>
+    // <Button/>
+    
+    // 3-props
+      <>
+        <Student name ="Spongebob" age={30} isStudent={true}/>
+      </>
   );
 }
 
