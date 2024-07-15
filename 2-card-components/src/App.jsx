@@ -3,7 +3,9 @@
 // import Student from "./Student";
 // import UserGreeting from "./UserGreeting";
 // import List from "./List";
-import Button from "./Button";
+// import Button from "./Button";
+// import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 function App() {
   // const fruits = [{id: 1 ,name:"apple", calories: 95},
   //                 {id: 2 ,name:"orange", calories:45},
@@ -35,8 +37,14 @@ function App() {
     //   {fruits.length> 0 && <List items = {fruits} category = "Fruits"/>}
     //   {vegetables.length >0 ? <List items = {vegetables} category = "Vegatables"/> : null}
     // </>
+    // <>
+    //   <Button></Button>
+    // </>
+    // <>
+    //   <MyComponent/> 
+    // </>
     <>
-      <Button></Button>
+      <Counter/> 
     </>
     
   );
