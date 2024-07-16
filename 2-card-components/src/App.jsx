@@ -5,9 +5,10 @@
 // import List from "./List";
 // import Button from "./Button";
 // import MyComponent from "./MyComponent";
-import Counter from "./Counter";
+// import Counter from "./Counter";
 // import MyComponent2 from "./MyComponent2";
 // import ColorPicker from "./ColorPicker";
+import MyComponent3 from "./MyComponent3";
 function App() {
   // const fruits = [{id: 1 ,name:"apple", calories: 95},
   //                 {id: 2 ,name:"orange", calories:45},
@@ -45,15 +46,18 @@ function App() {
     // <>
     //   <MyComponent/> 
     // </>
-    <>
-      <Counter/> 
-    </>
+    // <>
+    //   <Counter/> 
+    // </>
     // <>
     //   <MyComponent2/> 
     // </>
     // <>
     //   <ColorPicker/> 
     // </>
+    <>
+      <MyComponent3/> 
+    </>
     
   );
 }
