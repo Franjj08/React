@@ -8,7 +8,8 @@
 // import Counter from "./Counter";
 // import MyComponent2 from "./MyComponent2";
 // import ColorPicker from "./ColorPicker";
-import MyComponent3 from "./MyComponent3";
+// import MyComponent3 from "./MyComponent3";
+import MyComponent4 from "./MyComponent4";
 function App() {
   // const fruits = [{id: 1 ,name:"apple", calories: 95},
   //                 {id: 2 ,name:"orange", calories:45},
@@ -55,10 +56,12 @@ function App() {
     // <>
     //   <ColorPicker/> 
     // </>
+    // <>
+    //   <MyComponent3/> 
+    // </>
     <>
-      <MyComponent3/> 
+      <MyComponent4/> 
     </>
-    
   );
 }
 
